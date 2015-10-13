@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		E75E490F1BBE98B2003A5803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E490E1BBE98B2003A5803 /* main.m */; };
 		E75E49121BBE98B2003A5803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E49111BBE98B2003A5803 /* AppDelegate.m */; };
-		E75E49151BBE98B2003A5803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E49141BBE98B2003A5803 /* ViewController.m */; };
-		E75E49181BBE98B2003A5803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75E49161BBE98B2003A5803 /* Main.storyboard */; };
 		E75E491A1BBE98B2003A5803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75E49191BBE98B2003A5803 /* Assets.xcassets */; };
 		E75E491D1BBE98B2003A5803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75E491B1BBE98B2003A5803 /* LaunchScreen.storyboard */; };
 		E75E49281BBE98B2003A5803 /* IntelligenceDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E49271BBE98B2003A5803 /* IntelligenceDoctorTests.m */; };
 		E75E49331BBE98B2003A5803 /* IntelligenceDoctorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E49321BBE98B2003A5803 /* IntelligenceDoctorUITests.m */; };
+		E78506D61BCA0F4200C08258 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506D51BCA0F4200C08258 /* Constant.m */; settings = {ASSET_TAGS = (); }; };
+		E78506D91BCA0F5800C08258 /* DoktorDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506D81BCA0F5800C08258 /* DoktorDefine.m */; settings = {ASSET_TAGS = (); }; };
+		E78506DD1BCA1DCF00C08258 /* PenyakitController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506DC1BCA1DCF00C08258 /* PenyakitController.m */; settings = {ASSET_TAGS = (); }; };
+		E78506E21BCA212700C08258 /* SymptomControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506E11BCA212700C08258 /* SymptomControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E78506E91BCA272600C08258 /* MedicineController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506E81BCA272600C08258 /* MedicineController.m */; settings = {ASSET_TAGS = (); }; };
+		E78506ED1BCA2D2D00C08258 /* OptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506EC1BCA2D2D00C08258 /* OptionController.m */; settings = {ASSET_TAGS = (); }; };
+		E78506EF1BCA3BE200C08258 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78506EE1BCA3BE200C08258 /* SafariServices.framework */; };
+		E78506F11BCA45BB00C08258 /* DoktorPintar.png in Resources */ = {isa = PBXBuildFile; fileRef = E78506F01BCA45BB00C08258 /* DoktorPintar.png */; settings = {ASSET_TAGS = (); }; };
+		E789EF2D1BC90EF1004D56F9 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E789EF2C1BC90EF1004D56F9 /* MainController.m */; settings = {ASSET_TAGS = (); }; };
+		E789EF2F1BC90F68004D56F9 /* IntelligenceBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E789EF2E1BC90F68004D56F9 /* IntelligenceBoard.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +47,6 @@
 		E75E490E1BBE98B2003A5803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E75E49101BBE98B2003A5803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E75E49111BBE98B2003A5803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E75E49131BBE98B2003A5803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E75E49141BBE98B2003A5803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E75E49171BBE98B2003A5803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E75E49191BBE98B2003A5803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E75E491C1BBE98B2003A5803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E75E491E1BBE98B2003A5803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,24 @@
 		E75E492E1BBE98B2003A5803 /* IntelligenceDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelligenceDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75E49321BBE98B2003A5803 /* IntelligenceDoctorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntelligenceDoctorUITests.m; sourceTree = "<group>"; };
 		E75E49341BBE98B2003A5803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78506D41BCA0F4200C08258 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		E78506D51BCA0F4200C08258 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		E78506D71BCA0F5800C08258 /* DoktorDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoktorDefine.h; sourceTree = "<group>"; };
+		E78506D81BCA0F5800C08258 /* DoktorDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoktorDefine.m; sourceTree = "<group>"; };
+		E78506DA1BCA1D1B00C08258 /* Doktor-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Doktor-PrefixHeader.pch"; sourceTree = "<group>"; };
+		E78506DB1BCA1DCF00C08258 /* PenyakitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenyakitController.h; sourceTree = "<group>"; };
+		E78506DC1BCA1DCF00C08258 /* PenyakitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenyakitController.m; sourceTree = "<group>"; };
+		E78506E01BCA212700C08258 /* SymptomControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymptomControllerViewController.h; sourceTree = "<group>"; };
+		E78506E11BCA212700C08258 /* SymptomControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymptomControllerViewController.m; sourceTree = "<group>"; };
+		E78506E71BCA272600C08258 /* MedicineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicineController.h; sourceTree = "<group>"; };
+		E78506E81BCA272600C08258 /* MedicineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicineController.m; sourceTree = "<group>"; };
+		E78506EB1BCA2D2D00C08258 /* OptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionController.h; sourceTree = "<group>"; };
+		E78506EC1BCA2D2D00C08258 /* OptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionController.m; sourceTree = "<group>"; };
+		E78506EE1BCA3BE200C08258 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		E78506F01BCA45BB00C08258 /* DoktorPintar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DoktorPintar.png; sourceTree = "<group>"; };
+		E789EF2B1BC90EF1004D56F9 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		E789EF2C1BC90EF1004D56F9 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		E789EF2E1BC90F68004D56F9 /* IntelligenceBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IntelligenceBoard.storyboard; path = ../IntelligenceBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78506EF1BCA3BE200C08258 /* SafariServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,15 +125,19 @@
 		E75E490C1BBE98B2003A5803 /* IntelligenceDoctor */ = {
 			isa = PBXGroup;
 			children = (
-				E75E49101BBE98B2003A5803 /* AppDelegate.h */,
-				E75E49111BBE98B2003A5803 /* AppDelegate.m */,
-				E75E49131BBE98B2003A5803 /* ViewController.h */,
-				E75E49141BBE98B2003A5803 /* ViewController.m */,
-				E75E49161BBE98B2003A5803 /* Main.storyboard */,
+				E78506EA1BCA2D1D00C08258 /* Option */,
+				E78506E31BCA26FB00C08258 /* Medicine */,
+				E78506DF1BCA211300C08258 /* Symptom */,
+				E789EF2A1BC90ECE004D56F9 /* Main */,
+				E78506DE1BCA1DDF00C08258 /* Penyakit */,
+				E78506D31BCA0F3400C08258 /* Helper */,
+				E789EF2E1BC90F68004D56F9 /* IntelligenceBoard.storyboard */,
+				E789EF291BC90EC4004D56F9 /* AppDelegate */,
 				E75E49191BBE98B2003A5803 /* Assets.xcassets */,
 				E75E491B1BBE98B2003A5803 /* LaunchScreen.storyboard */,
 				E75E491E1BBE98B2003A5803 /* Info.plist */,
 				E75E490D1BBE98B2003A5803 /* Supporting Files */,
+				E78506DA1BCA1D1B00C08258 /* Doktor-PrefixHeader.pch */,
 			);
 			path = IntelligenceDoctor;
 			sourceTree = "<group>";
@@ -117,6 +145,8 @@
 		E75E490D1BBE98B2003A5803 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E78506F01BCA45BB00C08258 /* DoktorPintar.png */,
+				E78506EE1BCA3BE200C08258 /* SafariServices.framework */,
 				E75E490E1BBE98B2003A5803 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +168,71 @@
 				E75E49341BBE98B2003A5803 /* Info.plist */,
 			);
 			path = IntelligenceDoctorUITests;
+			sourceTree = "<group>";
+		};
+		E78506D31BCA0F3400C08258 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E78506D41BCA0F4200C08258 /* Constant.h */,
+				E78506D51BCA0F4200C08258 /* Constant.m */,
+				E78506D71BCA0F5800C08258 /* DoktorDefine.h */,
+				E78506D81BCA0F5800C08258 /* DoktorDefine.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E78506DE1BCA1DDF00C08258 /* Penyakit */ = {
+			isa = PBXGroup;
+			children = (
+				E78506DB1BCA1DCF00C08258 /* PenyakitController.h */,
+				E78506DC1BCA1DCF00C08258 /* PenyakitController.m */,
+			);
+			name = Penyakit;
+			sourceTree = "<group>";
+		};
+		E78506DF1BCA211300C08258 /* Symptom */ = {
+			isa = PBXGroup;
+			children = (
+				E78506E01BCA212700C08258 /* SymptomControllerViewController.h */,
+				E78506E11BCA212700C08258 /* SymptomControllerViewController.m */,
+			);
+			name = Symptom;
+			sourceTree = "<group>";
+		};
+		E78506E31BCA26FB00C08258 /* Medicine */ = {
+			isa = PBXGroup;
+			children = (
+				E78506E71BCA272600C08258 /* MedicineController.h */,
+				E78506E81BCA272600C08258 /* MedicineController.m */,
+			);
+			name = Medicine;
+			sourceTree = "<group>";
+		};
+		E78506EA1BCA2D1D00C08258 /* Option */ = {
+			isa = PBXGroup;
+			children = (
+				E78506EB1BCA2D2D00C08258 /* OptionController.h */,
+				E78506EC1BCA2D2D00C08258 /* OptionController.m */,
+			);
+			name = Option;
+			sourceTree = "<group>";
+		};
+		E789EF291BC90EC4004D56F9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E75E49101BBE98B2003A5803 /* AppDelegate.h */,
+				E75E49111BBE98B2003A5803 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E789EF2A1BC90ECE004D56F9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E789EF2B1BC90EF1004D56F9 /* MainController.h */,
+				E789EF2C1BC90EF1004D56F9 /* MainController.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +338,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78506F11BCA45BB00C08258 /* DoktorPintar.png in Resources */,
 				E75E491D1BBE98B2003A5803 /* LaunchScreen.storyboard in Resources */,
 				E75E491A1BBE98B2003A5803 /* Assets.xcassets in Resources */,
-				E75E49181BBE98B2003A5803 /* Main.storyboard in Resources */,
+				E789EF2F1BC90F68004D56F9 /* IntelligenceBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E75E49151BBE98B2003A5803 /* ViewController.m in Sources */,
+				E78506D91BCA0F5800C08258 /* DoktorDefine.m in Sources */,
+				E78506E91BCA272600C08258 /* MedicineController.m in Sources */,
 				E75E49121BBE98B2003A5803 /* AppDelegate.m in Sources */,
+				E78506E21BCA212700C08258 /* SymptomControllerViewController.m in Sources */,
+				E789EF2D1BC90EF1004D56F9 /* MainController.m in Sources */,
 				E75E490F1BBE98B2003A5803 /* main.m in Sources */,
+				E78506ED1BCA2D2D00C08258 /* OptionController.m in Sources */,
+				E78506DD1BCA1DCF00C08258 /* PenyakitController.m in Sources */,
+				E78506D61BCA0F4200C08258 /* Constant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E75E49161BBE98B2003A5803 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E75E49171BBE98B2003A5803 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E75E491B1BBE98B2003A5803 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IntelligenceDoctor/Doktor-PrefixHeader.pch";
 				INFOPLIST_FILE = IntelligenceDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terato.IntelligenceDoctor;
@@ -422,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IntelligenceDoctor/Doktor-PrefixHeader.pch";
 				INFOPLIST_FILE = IntelligenceDoctor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.terato.IntelligenceDoctor;
@@ -496,6 +592,7 @@
 				E75E49391BBE98B2003A5803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75E493A1BBE98B2003A5803 /* Build configuration list for PBXNativeTarget "IntelligenceDoctorTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +601,7 @@
 				E75E493C1BBE98B2003A5803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75E493D1BBE98B2003A5803 /* Build configuration list for PBXNativeTarget "IntelligenceDoctorUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +610,7 @@
 				E75E493F1BBE98B2003A5803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
