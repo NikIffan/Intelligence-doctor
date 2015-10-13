@@ -1,0 +1,17 @@
+//
+//  Doktor-PrefixHeader.pch
+//  IntelligenceDoctor
+//
+//  Created by Arif Fikri Abas on 11/10/2015.
+//  Copyright © 2015 terato. All rights reserved.
+//
+
+#ifndef Doktor_PrefixHeader_pch
+#define Doktor_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DoktorDefine.h"
+
+#endif /* Doktor_PrefixHeader_pch */
