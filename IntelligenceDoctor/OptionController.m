@@ -31,15 +31,15 @@
     {
         [self.labelOutlet setTextColor:[UIColor redColor]];
         self.button2Outlet.backgroundColor = self.button1Outlet.backgroundColor;
-        warningText = @"WARNING ! \n You are advise to see a Doctor";
+        warningText = @"BAHAYA ! \n Anda dinasihatkan berjumpa doktor perubatan";
         button1Text = @"";
-        button2Text = @"Home Page";
+        button2Text = @"Laman Utama";
     }
     else
     {
-        warningText = @"We found your list of Medicine";
-        button1Text = @"Get Medicine";
-        button2Text = @"Try Again";
+        warningText = @"Ubatan yang sesuai telah dijumpai";
+        button1Text = @"Semak Ubat";
+        button2Text = @"Cuba Lagi";
     }
     
     [self.labelOutlet setText:warningText];

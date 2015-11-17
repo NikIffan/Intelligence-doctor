@@ -13,16 +13,17 @@
 		E75E491D1BBE98B2003A5803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75E491B1BBE98B2003A5803 /* LaunchScreen.storyboard */; };
 		E75E49281BBE98B2003A5803 /* IntelligenceDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E49271BBE98B2003A5803 /* IntelligenceDoctorTests.m */; };
 		E75E49331BBE98B2003A5803 /* IntelligenceDoctorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75E49321BBE98B2003A5803 /* IntelligenceDoctorUITests.m */; };
-		E78506D61BCA0F4200C08258 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506D51BCA0F4200C08258 /* Constant.m */; settings = {ASSET_TAGS = (); }; };
-		E78506D91BCA0F5800C08258 /* DoktorDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506D81BCA0F5800C08258 /* DoktorDefine.m */; settings = {ASSET_TAGS = (); }; };
-		E78506DD1BCA1DCF00C08258 /* PenyakitController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506DC1BCA1DCF00C08258 /* PenyakitController.m */; settings = {ASSET_TAGS = (); }; };
-		E78506E21BCA212700C08258 /* SymptomControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506E11BCA212700C08258 /* SymptomControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E78506E91BCA272600C08258 /* MedicineController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506E81BCA272600C08258 /* MedicineController.m */; settings = {ASSET_TAGS = (); }; };
-		E78506ED1BCA2D2D00C08258 /* OptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506EC1BCA2D2D00C08258 /* OptionController.m */; settings = {ASSET_TAGS = (); }; };
+		E78506D61BCA0F4200C08258 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506D51BCA0F4200C08258 /* Constant.m */; };
+		E78506D91BCA0F5800C08258 /* DoktorDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506D81BCA0F5800C08258 /* DoktorDefine.m */; };
+		E78506DD1BCA1DCF00C08258 /* PenyakitController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506DC1BCA1DCF00C08258 /* PenyakitController.m */; };
+		E78506E21BCA212700C08258 /* SymptomControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506E11BCA212700C08258 /* SymptomControllerViewController.m */; };
+		E78506E91BCA272600C08258 /* MedicineController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506E81BCA272600C08258 /* MedicineController.m */; };
+		E78506ED1BCA2D2D00C08258 /* OptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = E78506EC1BCA2D2D00C08258 /* OptionController.m */; };
 		E78506EF1BCA3BE200C08258 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E78506EE1BCA3BE200C08258 /* SafariServices.framework */; };
-		E78506F11BCA45BB00C08258 /* DoktorPintar.png in Resources */ = {isa = PBXBuildFile; fileRef = E78506F01BCA45BB00C08258 /* DoktorPintar.png */; settings = {ASSET_TAGS = (); }; };
-		E789EF2D1BC90EF1004D56F9 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E789EF2C1BC90EF1004D56F9 /* MainController.m */; settings = {ASSET_TAGS = (); }; };
-		E789EF2F1BC90F68004D56F9 /* IntelligenceBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E789EF2E1BC90F68004D56F9 /* IntelligenceBoard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E78506F11BCA45BB00C08258 /* DoktorPintar.png in Resources */ = {isa = PBXBuildFile; fileRef = E78506F01BCA45BB00C08258 /* DoktorPintar.png */; };
+		E789EF2D1BC90EF1004D56F9 /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = E789EF2C1BC90EF1004D56F9 /* MainController.m */; };
+		E789EF2F1BC90F68004D56F9 /* IntelligenceBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E789EF2E1BC90F68004D56F9 /* IntelligenceBoard.storyboard */; };
+		E7BCE9D01BF97D5500D642CA /* PersonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BCE9CF1BF97D5500D642CA /* PersonalController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		E789EF2B1BC90EF1004D56F9 /* MainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
 		E789EF2C1BC90EF1004D56F9 /* MainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
 		E789EF2E1BC90F68004D56F9 /* IntelligenceBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IntelligenceBoard.storyboard; path = ../IntelligenceBoard.storyboard; sourceTree = "<group>"; };
+		E7BCE9CE1BF97D5500D642CA /* PersonalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalController.h; sourceTree = "<group>"; };
+		E7BCE9CF1BF97D5500D642CA /* PersonalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 		E75E490C1BBE98B2003A5803 /* IntelligenceDoctor */ = {
 			isa = PBXGroup;
 			children = (
+				E7BCE9D21BF97D7400D642CA /* Personal */,
 				E78506EA1BCA2D1D00C08258 /* Option */,
 				E78506E31BCA26FB00C08258 /* Medicine */,
 				E78506DF1BCA211300C08258 /* Symptom */,
@@ -233,6 +237,15 @@
 				E789EF2C1BC90EF1004D56F9 /* MainController.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		E7BCE9D21BF97D7400D642CA /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				E7BCE9CE1BF97D5500D642CA /* PersonalController.h */,
+				E7BCE9CF1BF97D5500D642CA /* PersonalController.m */,
+			);
+			name = Personal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,6 +388,7 @@
 				E78506ED1BCA2D2D00C08258 /* OptionController.m in Sources */,
 				E78506DD1BCA1DCF00C08258 /* PenyakitController.m in Sources */,
 				E78506D61BCA0F4200C08258 /* Constant.m in Sources */,
+				E7BCE9D01BF97D5500D642CA /* PersonalController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,16 +19,17 @@
 @implementation PenyakitController
 
 -(void)viewWillAppear:(BOOL)animated
-{
-    self.navigationController.navigationBar.topItem.title = @"Pilih penyakit";
-    
+{    
     [super viewWillAppear:animated];
 }
 
 - (void)viewDidLoad
 {
     sicknessArray = [[NSArray alloc] initWithArray:[[DoktorDefine alloc] getAllSickness]];
+    [self setTitle:@"Pilih penyakit"];
     
+    self.navigationController.navigationBar.topItem.title = @"";
+
     [super viewDidLoad];
 }
 
